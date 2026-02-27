@@ -12,7 +12,7 @@ function updateView() {
     <input id="input" type="text" style= 'width:10px;' onchange="saveInput(this.value)">
     <div id="num2">${rng2}</div>
 
-    <button id="submitButton" class="big-button" onclick="submit()">Submit</button>
-    <button id="resetButton" class="big-button" onclick="numberGen()">Get numbers</button>
+    <button id="submitButton" onclick="submit()">Submit</button>
+    <button id="resetButton" onclick="numberGen()">Get numbers</button>
     `
 }
