@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(208, 230, 250, 0.836);
+    font: 14px/1.5em "Lucida Grande", Arial, sans-serif;
+    margin: 20px;
+    width: auto;
+    font-size: medium;
+    font-family: sans-serif;
+    color: #ff009d;
+}
+
+button {
+	cursor: pointer;
+	position: relative;
+	border-radius: 1rem;
+    padding: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 1rem;
+	font-weight: 100;
+	border: 1px solid #012880;
+	background-image: linear-gradient(-180deg, #fca2dc 0%, #d602a8 100%);
+}
