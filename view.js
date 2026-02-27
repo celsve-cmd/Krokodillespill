@@ -13,6 +13,6 @@ function updateView() {
     <div id="num2">${rng2}</div>
 
     <button id="submitButton" class="big-button" onclick="submit()">Submit</button>
-    <button id="resetButton" class="big-button" onclick="numberGen()">Reset</button>
+    <button id="resetButton" class="big-button" onclick="numberGen()">Get numbers</button>
     `
 }
