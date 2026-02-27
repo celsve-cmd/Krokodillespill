@@ -1,0 +1,19 @@
+//View (det som genererer HTML)
+updateView()
+function updateView() {
+
+    document.getElementById('krokodillespill').innerHTML = /*HTML*/ `
+    
+    <div id="points">Points: ${points}</div>
+    <br>
+    <div id ="message"></div>
+    <img src="ai-generated-9314391_640-removebg-preview.png" width="30%", height="30%">
+    <br>
+    <div id="num1">${rng1}</div>
+    <input id="input" type="text" style= 'width:10px;' onchange="saveInput(this.value)">
+    <br>
+    <div id="num2">${rng2}</div>
+    <button id="submitButton" onclick="submit()">Submit</button>
+    <button id="resetButton" onclick="numberGen()">Reset</button>
+    `
+}
