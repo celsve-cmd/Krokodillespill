@@ -12,7 +12,7 @@ function updateView() {
 
     <div id="points">Points: ${points}</div>
     <br>
-    <img src="ai-generated-9314391_640-removebg-preview.png" width="30%", height="30%">
+    <img src="ai-generated-9314391_640-removebg-preview.png" width="25%", height="25%">
 
     <div id="num1">${rng1}</div>
     <input id="input" type="text" style= 'width:10px;' onchange="saveInput(this.value)">
